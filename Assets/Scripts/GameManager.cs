@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
                     }
 
                     GameObject spawnLocation = spawnPoints[spawnPoint];
-                    // Here?
+
                     GameObject newAlien = Instantiate(alien) as GameObject;
 
                     newAlien.transform.position = spawnLocation.transform.position;
