@@ -102,6 +102,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   navigationUpdate: 0.5
+  OnDestroy:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &2341034401285400186
 PrefabInstance:
   m_ObjectHideFlags: 0
