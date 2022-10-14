@@ -875,6 +875,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 309171588}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &339046700 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400044, guid: 7f78b096b427d419f9918e4ae4fc4aec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1252712268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &386178801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,6 +1057,7 @@ MonoBehaviour:
   gun: {fileID: 1625303160}
   upgradeMaxTimeSpawn: 7.5
   deathFloor: {fileID: 167514022}
+  arenaAnimator: {fileID: 1819551581}
 --- !u!4 &689879318
 Transform:
   m_ObjectHideFlags: 0
@@ -2295,6 +2302,45 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: -1.82, y: 6.53, z: 0.7}
+--- !u!1 &1819551580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7f78b096b427d419f9918e4ae4fc4aec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1252712268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1819551581 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 7f78b096b427d419f9918e4ae4fc4aec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1252712268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1819551582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819551580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f77d385b348334e8da6bd3e2da7e02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1725881551}
+  elevator: {fileID: 339046700}
+--- !u!135 &1819551583
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819551580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 1.65
+  m_Center: {x: 0, y: 0.22, z: 0}
 --- !u!1 &1878499955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100078, guid: 7f78b096b427d419f9918e4ae4fc4aec,
